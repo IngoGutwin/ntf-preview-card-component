@@ -163,7 +163,6 @@ select {
   border-radius: 0;
   opacity: 1;
   transition: opacity 0.3s;
-  outline: indigo 1px solid;
   width: 100%;
   height: 100%;
   justify-content: center;
