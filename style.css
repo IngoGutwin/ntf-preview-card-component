@@ -7,6 +7,7 @@
   --clr-pri-cyan: 178 100% 50%;
   --clr-main-bg: 217 54% 11%;
   --clr-card-bg: 216 50% 16%;
+  --clr-shadow: 217 55% 10%;
   --clr-line: 215 32% 27%;
   --clr-white: 0 0% 100%;
   /* font sizes */
@@ -150,10 +151,12 @@ select {
   color: hsl(var(--clr-pri-cyan));
   cursor: pointer;
 }
+.card {
+  box-shadow: 0 15px 15px 15px hsl(var(--clr-shadow));
+}
 .card,
 .equilibrium-image > img {
   border-radius: 0.9em;
-  /* max-height: 17.5em; */
 }
 .view-icon {
   position: absolute;
